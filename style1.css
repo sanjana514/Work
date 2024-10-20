@@ -1,0 +1,72 @@
+*{
+    padding: 0;   /*for reducing all padding and margine from html and CSS */
+    margin: 0;
+    box-sizing: border-box;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+  body{
+    font-family:'poppins',sans-serif;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+ .container{
+  width:900px;
+  height: 410px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+ }
+ .child1{
+  width:380px;
+  height:280px;
+  /* border:2px solid black; */
+  padding-top:40px ;
+  padding-left:71px;
+  }
+  h1{
+    font-size:40px;
+  }
+  p{
+  padding-top:15px;
+  font-size: 13.6px;
+  color: grey;
+  margin-bottom: 10px;
+ }
+ .buttons{
+  width:380px;
+  height:80px;
+  display: flex;
+  /* justify-content:space-evenly; */
+  align-items: center;
+  /* border: 2px solid black; */
+ }
+ .button1 a:link{
+  text-decoration: none;
+ }
+ .button2 a:link{
+  text-decoration: none;
+ }
+ .button1 a {
+  color: black;
+  padding:12px 25px 12px;
+  background-color: white;
+  font-size:12px;
+  border-radius:2.5px;
+  box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.14);
+  margin-right:20px;
+ }
+ .button2 a {
+  color: white;
+  padding:12px 25px 12px;
+  background-color: #4538cb;
+  font-size:12px;
+  border-radius:2.5px;
+ }
+ .child2 img{
+  width:380px;
+  height:280px;
+ }
