@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;0,400;1,100..900&family=Noto+Sans:wdth,wght@70.1,100&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(236, 219, 223);
+}
+.parent{
+    width:530px;
+    height:400px;
+    background-color:white;
+    display:flex;
+}
+img{
+    width:255px;
+    height:400px;
+}
+.child2{
+    width:275px;
+    height:400px;
+    background-color:white;
+}
+.child2 h5{
+    padding: 25px 25px 15px;
+    letter-spacing:3px;
+    color:gray;
+    /* line-height:1; */
+}
+.child2 h1{
+    padding: 0px 25px 15px;
+    line-height:1;
+   
+}
+.child2 p{
+    padding: 0px 25px 8px;
+    line-height:1.5;
+}
+.dollar{
+    width:275px;
+    display:flex;
+    text-indent: -15px;
+    align-items: center;
+}
+.newdollar{
+    width:138px;
+    font-size:32px;
+    color:rgb(236, 105, 127);
+    margin-left: 15px;
+}
+.prevdollar{
+    width:136px;
+    font-size:20px;
+    color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: line-through;
+}
+.btn{
+    padding:0px 10px 0px;
+    margin-top:8px;
+    margin-left:37px;
+    display:flex;
+    width:70%;
+    height:40px;
+    background-color:rgb(184, 28, 54);
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border-radius: 5px;
+}
